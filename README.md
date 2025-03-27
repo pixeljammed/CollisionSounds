@@ -23,6 +23,16 @@ Primitive right now. Will be updated. Repo is empty right now and releases will 
 - Particles look prettier + shown from impact point.
 - Roblox official physics API integration.
 
+-----
+## Installation
+1. Parent HitSounds (ReplicatedStorage.rbxm) -> ReplicatedStorage
+2. Create a folder including the parts (subfolders can exist inside of this!) you want the script to be applied to.
+3. Unanchor everything inside of this folder. You can do that by RIGHT CLICK -> SELECT CHILDREN and then unticking the Anchored property until it's blank.
+4. Put HitSoundHandler.rbxm inside of that folder.
+(This will constantly check the velocity of all parts inside that folder, which I have no idea how performant it is, but you can just parent the script to any single object you would like it to be inside of. You will have to delete the velocity check if you wish to use it like this)
+I plan to update this so it is just global in the future.
+If you want it to be applied to every object in your game just parent the HitSoundhanlder script to Workspace, lol!
+
 
 -----
 ## Credits
