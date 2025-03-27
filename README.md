@@ -10,7 +10,7 @@ Primitive right now. Will be updated. Repo is empty right now and releases will 
 - Customisable particles emitted from object on impact.
 - Plays designated "soft" and "hard" impact sounds depending on impact speed.
 - Calculates volume + loudness of sound based on speed which it hits something.
-- Plays (source engine sounds)[https://github.com/sourcesounds] by default.
+- Plays [source engine sounds](https://github.com/sourcesounds) by default.
 - Per-object specific material override (ex: cartoon spring noises for a bouncy ball).
 - OPTIONAL: Auto delete script when object goes into physics sleep.
 
