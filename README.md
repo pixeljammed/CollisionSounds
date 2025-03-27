@@ -27,8 +27,8 @@ Primitive right now. Will be updated. Repo is empty right now and releases will 
 ## Installation
 1. Move HitSounds (ReplicatedStorage.rbxm) to ReplicatedStorage.
 2. Create a folder including the parts (subfolders can exist inside of this!) you want the script to be applied to.
-3. Unanchor everything inside of this folder. You can do that by RIGHT CLICK -> SELECT CHILDREN and then unticking the Anchored property until it's blank.
-4. Put HitSoundHandler.rbxm inside of that folder.
+3. Unanchor everything inside of this folder (You can do that by RIGHT CLICK -> SELECT CHILDREN and then unticking the Anchored property until it's blank).
+4. Move HitSoundHandler.rbxm into that folder.
    
 (NOTE: that script will constantly check the velocity of all parts inside that folder, including subfolders, descendants, etc, so long as they return true to IsABasePart(), which I have no idea how performant it is) 
 (you can just parent the script to any single object you would like it to be inside of. you will have to delete the velocity check if you wish to use it like this)
@@ -41,4 +41,5 @@ If you want it to be applied to every object in your game just parent the HitSou
 ## Credits
 - Valve Software: for the Source engine sound effects.
 - https://github.com/sourcesounds.
+- Some random code I found on the toolbox which was terrible and sucked + I refactored.
 - Me: For being a handsome programmer.
