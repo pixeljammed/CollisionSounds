@@ -1,6 +1,6 @@
 # CollisionSounds
 A roblox module/script in Lua which makes objects make material-specific sounds when they hit or collide with something.
-Primitive right now. Will be updated. Repo is empty right now and releases will be deployed too.
+Primitive right now. Will be updated.
 
 -----
 ## Features
