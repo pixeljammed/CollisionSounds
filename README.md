@@ -31,7 +31,7 @@ Primitive right now. May or may not be updated...
 4. Move HitSoundHandler.rbxm into that folder.
    
 (NOTE: that script will constantly check the velocity of all parts inside that folder, including subfolders, descendants, etc, so long as they return true to IsABasePart(), which I have no idea how performant it is) 
-(you can just parent the script to any single object you would like it to be inside of. you will have to delete the velocity check if you wish to use it like this)
+(you can just parent the script to any single object you would like it to be inside of. you will have to delete the velocity check and script.delete() if you wish to use it like this)
 
 I plan to update this so it is just globally managed in the future.
 If you want it to be applied to every object in your game just parent the HitSoundHandler to Workspace.
