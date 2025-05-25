@@ -42,4 +42,4 @@ If you want it to be applied to every object in your game just parent the HitSou
 - Valve Software: for the Source engine sound effects.
 - https://github.com/sourcesounds.
 - Some random code I found on the toolbox which was terrible and sucked + I rewrote.
-- Me: For being a handsome programmer.
+- Me: for being a handsome programmer.
