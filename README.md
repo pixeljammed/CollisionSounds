@@ -22,6 +22,7 @@ Primitive right now. May or may not be updated...
 - Support Roblox's new MaterialVarient systems + property.
 - Particles look prettier + shown from impact point.
 - Roblox official physics API integration.
+- **One combined .rbxm for everything**
 
 -----
 ## Installation
